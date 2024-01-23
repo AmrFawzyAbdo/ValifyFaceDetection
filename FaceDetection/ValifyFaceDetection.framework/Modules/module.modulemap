@@ -1,0 +1,11 @@
+framework module ValifyFaceDetection {
+  umbrella header "ValifyFaceDetection.h"
+  export *
+
+  module * { export * }
+}
+
+module ValifyFaceDetection.Swift {
+  header "ValifyFaceDetection-Swift.h"
+  requires objc
+}
